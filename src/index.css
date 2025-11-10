@@ -1,0 +1,113 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Definition of the design system. All colors, gradients, fonts, etc should be defined here. 
+All colors MUST be HSL.
+*/
+
+@layer base {
+  :root {
+    /* Dark sci-fi theme with neon accents */
+    --background: 240 15% 5%;
+    --background-secondary: 270 30% 8%;
+    --foreground: 180 100% 95%;
+
+    --card: 270 25% 12%;
+    --card-foreground: 180 100% 95%;
+    --card-glow: 180 100% 50%;
+
+    --popover: 270 25% 10%;
+    --popover-foreground: 180 100% 95%;
+
+    --primary: 180 100% 50%;
+    --primary-foreground: 240 15% 5%;
+    --primary-glow: 180 100% 60%;
+
+    --secondary: 270 40% 20%;
+    --secondary-foreground: 180 100% 95%;
+
+    --accent: 35 100% 55%;
+    --accent-foreground: 240 15% 5%;
+    --accent-glow: 35 100% 65%;
+
+    --muted: 270 20% 15%;
+    --muted-foreground: 180 30% 65%;
+
+    --destructive: 0 84.2% 60.2%;
+    --destructive-foreground: 210 40% 98%;
+
+    --border: 270 30% 20%;
+    --input: 270 25% 15%;
+    --ring: 180 100% 50%;
+
+    --radius: 0.75rem;
+
+    /* Gradient definitions */
+    --gradient-primary: linear-gradient(135deg, hsl(180, 100%, 50%) 0%, hsl(200, 100%, 45%) 100%);
+    --gradient-accent: linear-gradient(135deg, hsl(35, 100%, 55%) 0%, hsl(45, 100%, 50%) 100%);
+    --gradient-bg: linear-gradient(180deg, hsl(240, 15%, 5%) 0%, hsl(270, 30%, 8%) 100%);
+    --gradient-card: linear-gradient(135deg, hsla(270, 25%, 12%, 0.6) 0%, hsla(270, 25%, 15%, 0.4) 100%);
+
+    /* Shadows and glows */
+    --shadow-glow-primary: 0 0 40px hsla(180, 100%, 50%, 0.3);
+    --shadow-glow-accent: 0 0 40px hsla(35, 100%, 55%, 0.3);
+    --shadow-card: 0 10px 40px hsla(0, 0%, 0%, 0.5);
+
+    /* Transitions */
+    --transition-smooth: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+
+  body {
+    @apply bg-background text-foreground font-body antialiased;
+    background: linear-gradient(180deg, hsl(240, 15%, 5%) 0%, hsl(270, 30%, 8%) 100%);
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    @apply font-display;
+  }
+}
+
+@layer utilities {
+  .glow-primary {
+    box-shadow: 0 0 40px hsla(180, 100%, 50%, 0.3);
+  }
+
+  .glow-accent {
+    box-shadow: 0 0 40px hsla(35, 100%, 55%, 0.3);
+  }
+
+  .text-glow-primary {
+    text-shadow: 0 0 20px hsla(180, 100%, 50%, 0.5);
+  }
+
+  .text-glow-accent {
+    text-shadow: 0 0 20px hsla(35, 100%, 55%, 0.5);
+  }
+
+  .glass-card {
+    background: linear-gradient(135deg, hsla(270, 25%, 12%, 0.6) 0%, hsla(270, 25%, 15%, 0.4) 100%);
+    backdrop-filter: blur(10px);
+    border: 1px solid hsla(270, 30%, 20%, 0.5);
+  }
+
+  .gradient-text-primary {
+    background: linear-gradient(135deg, hsl(180, 100%, 50%) 0%, hsl(200, 100%, 45%) 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+  }
+
+  .gradient-text-accent {
+    background: linear-gradient(135deg, hsl(35, 100%, 55%) 0%, hsl(45, 100%, 50%) 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+  }
+}
