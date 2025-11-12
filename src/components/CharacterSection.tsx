@@ -58,9 +58,7 @@ export const CharacterSection = () => {
             className="space-y-4"
           >
             <div className="space-y-3">
-              <p className="text-lg font-semibold text-accent">
-                “Defiant. Empathic. Devious. Enterprising.”
-              </p>
+
               <p className="text-base text-foreground/80 leading-relaxed">
                 Born in a backwater farcaster town — the last from a family of six, she is a creative hothead from Warplet Race —
               </p>
@@ -69,6 +67,9 @@ export const CharacterSection = () => {
               </p>
               <p className="text-sm text-muted-foreground">
                 She’s more than an NFT — she’s an evolving AI character, a founder, and a symbol of resilience.
+              </p>
+              <p className="text-lg font-semibold text-accent">
+                “Defiant. Empathic. Devious. Enterprising.”
               </p>
             </div>
 
