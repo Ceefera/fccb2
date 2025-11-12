@@ -2,7 +2,7 @@ import { motion } from "framer-motion";
 import { ExternalLink } from "lucide-react";
 
 const links = [
-  { label: "View Docs", href: "#" },
+  { label: "View Docs", href: "https://docs.google.com/document/d/1Zy3VA1knncMRXHb1V5xRnnS9RZfLDTqqXEH_Be0N9JM" },
   { label: "Airdrop Details", href: "#" },
 ];
 

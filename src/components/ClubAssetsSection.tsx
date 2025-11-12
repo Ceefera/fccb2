@@ -49,7 +49,7 @@ export const ClubAssetsSection = () => {
             Club Assets
           </h2>
           <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
-            Exclusive collectibles and rewards for FCBCC members
+            Community IP, Collectibles, Identity and Rewards.
           </p>
         </motion.div>
 

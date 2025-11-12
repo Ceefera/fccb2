@@ -23,7 +23,7 @@ export const CharacterSection = () => {
           className="text-center mb-12"
         >
           <h2 className="text-3xl md:text-4xl font-display font-bold mb-4 gradient-text-primary">
-            ‼️Meet Baby Warplette #2261
+            Meet Baby Warplette #2261
           </h2>
         </motion.div>
 
