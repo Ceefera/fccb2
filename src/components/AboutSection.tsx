@@ -2,9 +2,9 @@ import { motion } from "framer-motion";
 import { Database, Bird, Coins } from "lucide-react";
 
 const features = [
-  { icon: Database, label: "Base", color: "text-primary" },
+  { icon: Database, label: "On-Chain", color: "text-primary" },
   { icon: Bird, label: "Conservation", color: "text-accent" },
-  { icon: Coins, label: "Farcaster", color: "text-primary-glow" },
+  { icon: Coins, label: "Community", color: "text-primary-glow" },
 ];
 
 export const AboutSection = () => {

@@ -5,13 +5,13 @@ const winMethods = [
   {
     icon: Trophy,
     title: "Win by Auction",
-    description: "Participate in Farcaster Cast Auctions",
+    description: "Participate in FCBC Bids on Farcaster",
     gradient: "from-accent to-accent-glow",
   },
   {
     icon: Gem,
     title: "Win by Ownership",
-    description: "Hold the most Post Coins on Zora",
+    description: "Hold FCBC Post Coins from Zora",
     gradient: "from-primary to-primary-glow",
   },
 ];

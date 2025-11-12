@@ -44,7 +44,7 @@ export const NewsTriggersSection = () => {
             News Triggers
           </h2>
           <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
-            Events that activate new Asset-Generation Events (AGEs)
+            Events that activate new Asset Generation Event (AGE)
           </p>
         </motion.div>
 

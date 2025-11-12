@@ -57,8 +57,7 @@ export const CharacterSection = () => {
             viewport={{ once: true }}
             className="space-y-4"
           >
-            <div className="space-y-3">
-
+            <div className="space-y-5">
               <p className="text-base text-foreground/80 leading-relaxed">
                 Born in a backwater farcaster town — the last from a family of six, she is a creative hothead from Warplet Race —
               </p>

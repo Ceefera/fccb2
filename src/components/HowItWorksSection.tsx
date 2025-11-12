@@ -17,8 +17,8 @@ const steps = [
   {
     number: "03",
     icon: Camera,
-    title: "Weekly Snapshots",
-    description: "Track holders & airdrops",
+    title: "Per Epoch Snapshots",
+    description: "Track holders for airdrop allocations",
   },
   {
     number: "04",
